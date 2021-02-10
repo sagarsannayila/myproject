@@ -19,21 +19,21 @@
 # print(a1.__dict__ )
 
 
-# class class1:
+class class1:
 	
-# 	def __init__(self):
-# 		print('first')
-# 	def myclass(self):
-# 		print('second')
-# 	def myclass1(self):
-# 		print('third')
-# class class2(class1):
-# 	def __init__(self):
-# 		super().__init__()
-# 		print('one')
-# a = class2()
-# print(a.myclass())
-# print(a.myclass1())
+	def __init__(self):
+		print('first')
+	def myclass(self):
+		print('second')
+	def myclass1(self):
+		print('third')
+class class2(class1):
+	def __init__(self):
+		super().__init__()
+		print('one')
+a = class2()
+print(a.myclass())
+print(a.myclass1())
 ####################################
 def Myclass(fun):
 	def myfun():
