@@ -4,3 +4,6 @@ print(dir(l))
 # l.clear()
 b = l.count(9)
 print(b)
+b = [4,5,6,6,7,78,8,9,9]
+c = set(b)
+print(c)
