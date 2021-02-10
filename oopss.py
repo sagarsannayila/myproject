@@ -47,3 +47,7 @@ def Myclass1():
 # Myclass1 = Myclass(Myclass1)
 Myclass1()
 
+#############hdfjfhg
+a = 10
+b = 20
+print(a+b)
